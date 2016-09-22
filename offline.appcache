@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# V1.1.5
+
+CACHE:
+# 图片缓存
+./img/bg1.jpg
+./img/bg2.jpg
+./css/index.css
+./css/other.css
+
+NETWORK:
+#有网络的时候,*表示所有的文件。。。
+*
+
+FALLBACK:
+#远端 , 缓存
+./img/   ./img/bg1.jpg
